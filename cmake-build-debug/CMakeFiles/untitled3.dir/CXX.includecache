@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexey/CLionProjects/untitled3/main.cpp
+iostream
+-
+fstream
+-
+list
+-
+module1.h
+/home/alexey/CLionProjects/untitled3/module1.h
+
+/home/alexey/CLionProjects/untitled3/module1.cpp
+module1.h
+/home/alexey/CLionProjects/untitled3/module1.h
+
+/home/alexey/CLionProjects/untitled3/module1.h
+list
+-
+

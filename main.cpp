@@ -1,4 +1,3 @@
-#define _GLIBCXX_USE_CXX11_ABI 0
 #include <iostream>
 #include <fstream>
 #include <list>
@@ -31,7 +30,7 @@ int main (int argc, char **argv)
 
     using namespace Module1;
 
-   SpecialMetod::sort_strings(myLists);
+    myLists=SpecialMetod::sort_strings(myLists);
     while(!myLists.empty()){
         foutput<<myLists.back()<< endl;
         myLists.pop_back();
